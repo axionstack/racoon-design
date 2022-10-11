@@ -2,6 +2,7 @@
 .docusaurus
 .cache-loader
 .sass-cache
+site
 
 # Misc
 .DS_Store
