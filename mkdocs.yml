@@ -1,0 +1,59 @@
+site_name: Racoon Design
+site_description: UI Design system based on Bootstrap 5.2
+theme:
+  name: material
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: grey
+    accent: deep purple
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: grey
+    accent: deep purple
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+
+  features:
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+
+  logo: img/logo_w.png
+  favicon: img/favicon_2.png
+  language: en
+
+repo_name: axionstack/racoon-design
+repo_url: https://github.com/axionstack/racoon-design
+edit_uri: ''
+
+plugins:
+  - search
+  - tags
+
+nav:
+  - Getting Started:
+    - index.md
+    - license.md
+    - quick-start.md
+    - usage.md
+    - Components:
+      - components/alert.md
+      - components/badge.md
+      - components/button.md
+  - Configuration: 
+    - configuration/index.md
+    - configuration/colors.md
+
+  - Demos:
+    - demos/admin-dashboard.md
+    - demos/coming-soon-page.md
+    - demos/landing-pages.md
